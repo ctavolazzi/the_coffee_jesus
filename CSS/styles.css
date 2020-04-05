@@ -1,0 +1,92 @@
+/*TOP-LEVEL TAGS////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+body {
+  background-color: black;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/*CLASSES       ////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.whiteSpace {
+  width: 100%;
+  height: 25px;
+  background-color: white;
+  border-style: dashed;
+  border-color: thistle;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: yellow;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.whiteHeader {
+  color: white;
+  border-style: solid;
+  border-color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+.italic:hover, .bold:hover, .whiteSpace:hover {
+  background-color: yellow;
+}
+
+.frontEndMap {
+  width: 100%;
+  background-color: orange;
+  
+}
+
+.navigation {
+  background-color: blueviolet;
+}
+
+.header {
+  background-color: yellow;
+}
+
+.paragraph {
+  background-color: cornsilk;
+}
+
+.italic {
+  background-color: red;
+  padding: 10px;
+  margin: 50px;
+}
+
+.bold {
+  background-color: darkolivegreen;
+  padding: 10px;
+  margin: 50px;
+}
+
+/*ID's          ////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#boldItalicPara {
+  background-color: darkkhaki;
+}
+
+#mainHeader {
+  background-color: chartreuse;
+  padding: 10px;
+  margin: 10px;
+}
+
+#coffeeJesusFloat {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+#coffeeJesusHeadshot {
+  width: 50%;
+}
